@@ -6,8 +6,10 @@ namespace dll_point_Core
 {
     class CLpoint
     {
-        private static int initialse { get => initialse; set initialse= value; } = 0;
-        private double _x
+        private static int initialse  = 0;
+        private double _x;
+        private double _y;
+        public double X
         {
             get => _x;
             set
@@ -16,7 +18,7 @@ namespace dll_point_Core
 
             }
         }
-        private double _y
+        public double Y
         {
             get => _y;
             set { if (_y >= 0) { _y = value; } }
@@ -27,6 +29,7 @@ namespace dll_point_Core
             this._x = 0;
             this._y = 0;
             int id = 0;
+            id = this.init_point();
         }
 
         public CLpoint(double x, double y)
@@ -34,23 +37,19 @@ namespace dll_point_Core
             this._x = x;
             this._y = y;
             int id = 0;
+            id = this.init_point();
         }
 
-        public void init_point (double x ,double y)
+        public int init_point ()
         {
-            
-            
-            if (new CLpoint())
-            {
-                initialse++;
-                CLpoint.initialse = initialse;
-            }else if(new CLpoint(x,y))
-            {
-                 initialse++;
-            CLpoint.initialse = initialse;
-               
-            }
+           initialse++ ;
+           return initialse ;
+
         }
+
+        
 
     }
 }
+
+
