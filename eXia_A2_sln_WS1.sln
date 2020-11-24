@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eXia_A2_sln_WS1", "eXia_A2_sln_WS1\eXia_A2_sln_WS1.csproj", "{DA158320-48F1-430D-AEC2-6A5F19F81F36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dll_point_Core", "dll_point_Core\dll_point_Core.csproj", "{2F2531B0-83E7-42B3-A03E-425EC9D9C46E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA158320-48F1-430D-AEC2-6A5F19F81F36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA158320-48F1-430D-AEC2-6A5F19F81F36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA158320-48F1-430D-AEC2-6A5F19F81F36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA158320-48F1-430D-AEC2-6A5F19F81F36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F2531B0-83E7-42B3-A03E-425EC9D9C46E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F2531B0-83E7-42B3-A03E-425EC9D9C46E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F2531B0-83E7-42B3-A03E-425EC9D9C46E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F2531B0-83E7-42B3-A03E-425EC9D9C46E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5822F24C-CEEA-4B94-83AF-C71BDD24C90B}
+	EndGlobalSection
+EndGlobal
